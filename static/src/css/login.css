@@ -1,0 +1,17 @@
+@charset "UTF-8";
+main .oe_website_login_container {    vertical-align: middle;    padding: 40px 65px 0px;    border: 1px solid #ccc;    border-radius: 5px;    float: none;    background-color: #FFF;    box-shadow: 0.33px 3px 12px rgba(0, 0, 0, 0.3);    width: 400px;    margin: 40px auto;	color: #ec07b8;	}
+main .oe_website_login_container .btn-primary input { border: 1px solid #c33fa2; background-color:#fff;}	
+main .oe_website_login_container .btn-primary {		color: #fff;		background-color: #b545b1;	background: linear-gradient(to right,#fc4496,#b242ae);      border: 0;}
+main .oe_website_login_container .btn-primary:hover {	 background-color: #b242ae;	background: linear-gradient(to right,#b242ae,#fc4496);  }
+
+main .oe_website_login_container a {color: #7709ef; font-size: 16px;}
+main .oe_website_login_container a:hover{color: #d6429e; }
+	
+main .oe_website_login_container .btn-link{color: #d3419f; font-size: 16px;}
+main .oe_website_login_container .btn-link:hover { color: #d6429e;}
+
+@media only screen and (max-width: 420px) 
+{
+	main .oe_website_login_container { width: 98%; margin: 20px auto;}
+
+}
